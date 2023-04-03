@@ -13,6 +13,7 @@
 }
 * {
   margin: 0;
+  padding: 0;
 }
 ul {
   list-style: none;
@@ -124,7 +125,6 @@ body {
 .lorem-list {
   display: flex;
   gap: 30px;
-  padding-left: 0;
 }
 .lorem {
   font-weight: var(--font-weight700);
@@ -155,7 +155,6 @@ body {
 .our-team-list {
   display: flex;
   gap: 30px;
-  padding-left: 0;
 }
 .our-team {
   padding-top: -94px;
@@ -189,13 +188,11 @@ body {
   color: var(--color-text-light);
   padding-top: 60px;
 }
-.footer-list {
-  padding-left: 0;
-}
 .footer-address,
 .footer-mail,
 .footer-tel {
   font-size: 14px;
+  line-height: 1.71;
   font-style: normal;
   color: var(--bgcolor-light);
   margin-bottom: 9px;
@@ -204,7 +201,7 @@ body {
   margin-top: 20px;
 }
 .footer-link {
-  color: var(--color-text-light);
+  color: rgba(255, 255, 255, 0.6);
 }
 .footer-tel {
   padding-bottom: 60px;
@@ -237,7 +234,6 @@ body {
   display: flex;
   flex-wrap: wrap;
   gap: 30px;
-  padding-left: 0;
 }
 .photos-description {
   background: #ffffff;
