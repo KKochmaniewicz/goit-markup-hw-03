@@ -186,25 +186,20 @@ body {
 }
 .footer {
   color: var(--color-text-light);
-  padding-top: 60px;
+  padding: 60px 0;
 }
-.footer-address,
-.footer-mail,
-.footer-tel {
+.footer-list {
   font-size: 14px;
   line-height: 1.71;
   font-style: normal;
   color: var(--bgcolor-light);
-  margin-bottom: 9px;
-}
-.footer-address {
+  display: flex;
+  flex-direction: column;
+  gap: 9px;
   margin-top: 20px;
 }
 .footer-link {
   color: rgba(255, 255, 255, 0.6);
-}
-.footer-tel {
-  padding-bottom: 60px;
 }
 .category {
   display: flex;
