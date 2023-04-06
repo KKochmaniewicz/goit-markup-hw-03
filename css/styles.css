@@ -201,6 +201,10 @@ body {
 .footer-link {
   color: rgba(255, 255, 255, 0.6);
 }
+.footer-link:hover,
+.footer-link:focus {
+  color: var(--color-active);
+}
 .category {
   display: flex;
   gap: 8px;
@@ -216,6 +220,7 @@ body {
   border: none;
   background: #f5f4fa;
   border-radius: 4px;
+  padding: 6px 22px;
 }
 .category-button:hover,
 .category-button:focus {
